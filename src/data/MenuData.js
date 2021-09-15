@@ -1,7 +1,7 @@
 export const menuData = [
 {title: "About", link: "/about"},
-{title: "Trips", link: "/trips"},
-{title: "Careers", link: "/careers"},
+{title: "Services", link: "/trips"},
+{title: "Events", link: "/careers"},
 {title: "Contact", link: "/contact"}
 
 
