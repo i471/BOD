@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../assets/images/dog1.jpg",
+        "alt": "Pexels dog image 1",
+        "name": "Tian Tan Buddha",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/dog2.jpg",
+        "alt": "Pexels dog image 1",
+        "name": "Tian Tan Buddha",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/dog3.jpg",
+        "alt": "Pexels dog image 1",
+        "name": "Tian Tan Buddha",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/dog4.jpg",
+        "alt": "Pexels dog image 1",
+        "name": "Tian Tan Buddha",
+        "button": "View Destination"
+    }
+]

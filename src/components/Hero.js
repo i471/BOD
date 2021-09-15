@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Button } from './Button'
-import Video from '../assets/videos/travel.mp4'
+// import Video from '../assets/videos/travel.mp4'
 import Video2 from '../assets/videos/frenchieScratch.mp4'
 
 const Hero = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg src={Video2} type="video/mp4" autoPlay loop muted playsInline/>
+                <VideoBg src={Video2} type="video/mp4" autoPlay loop muted playsInline />
 
 
             </HeroBg>
@@ -18,9 +18,10 @@ const Hero = () => {
                         BullyOnDuty
                     </HeroH1>
                     <HeroP>
-                        Your girlfriend's favorite breeder.
+                        Home to the Original King Cobra
                     </HeroP>
-                    <Button primary="true" big="true" round="true">Book Consult</Button>
+                    {/* <a href="https://7aab-47-148-242-12.ngrok.io/ultrapuplov/on-site"> */}
+                    <Button primary="true" big="true" round="true" href="https://7aab-47-148-242-12.ngrok.io/ultrapuplov/on-site">Book Consult</Button>
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
@@ -39,6 +40,22 @@ const HeroContainer = styled.div`
     position: relative;
     margin-top: -80px;
     color:#fff;
+    
+    /* :before{
+        content: "";
+        position: absolute;
+        top:0;
+        bottom:0;
+        right: 0;
+        left:0;
+        z-index: 2;
+        background: linear-gradient(
+            180deg, 
+            rgba(0,0,0,0.2) 0%,
+            rgba(0,0,0,0.6) 100%,
+        ), 
+        linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+    } */
 `
 
 const HeroBg = styled.div`
@@ -50,6 +67,7 @@ const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+    filter: brightness(50%);
 `
 
 const VideoBg = styled.video`
@@ -90,4 +108,5 @@ const HeroH1 = styled.h1`
 const HeroP = styled.p`
     font-size: clamp(1rem,3vw,3rem);
     margin-bottom: 2rem;
+    font-weight: 400;
 `
