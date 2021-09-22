@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import EmailBg from '../assets/images/emailbg.jpg'
+import EmailBg from '../assets/images/BOD_Head.jpg'
 import { Button } from './Button'
 
 const Email = () => {
@@ -44,7 +44,8 @@ const EmailContainer = styled.div`
         rgba(0,0,0,0.5) 100%
         ),
     url(${EmailBg}) no-repeat center;
-    background-size: cover;
+    background-size: contain;
+    background-color: #000;
     height: 450px;
     width: 100%;
     padding: 5rem calc((100vw - 1300px) / 2);
