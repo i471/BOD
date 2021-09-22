@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa'
 import { menuData } from "../data/MenuData"
 import { Button } from "./Button"
 
-const Header = () => {
+const AppHeader = () => {
   return (
     <Nav>
       <NavLink to="/" >BullyOnDuty</NavLink>
@@ -27,7 +27,7 @@ const Header = () => {
 }
 
 
-export default Header
+export default AppHeader
 
 const Nav = styled.nav`
   background: transparent;

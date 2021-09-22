@@ -1,5 +1,5 @@
 import * as React from "react"
-import Header from "./Header"
+import AppHeader from "./AppHeader"
 import { GlobalStyle } from "./styles/GlobalStyles"
 import Footer from "./Footer"
 
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <Header/>
+      <AppHeader/>
       <main>{children}</main>
       <Footer/>
 
